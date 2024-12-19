@@ -1,0 +1,60 @@
+p {
+  font-size: 20px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("https://www.travelandleisure.com/thmb/Gh7nQJatHPnjmPLQ1fpMfxGnqIs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iguazu-falls-argentina-brazil-2-MOSTBEAUTIFUL0921-aec01087d3e74265958dee0b09061661.jpg");
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("https://pohcdn.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2021-01/Kirkjufell-volcano.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://www.purewow.com/stories/most-beautiful-places-in-the-world/assets/3.png");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .pimg .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
