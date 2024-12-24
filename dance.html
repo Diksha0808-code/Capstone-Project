@@ -11,23 +11,50 @@
 
       .topnav {
         overflow: hidden;
-        background-color: #117385;
+        background-color: #7fa8a8;
       }
       .topnav a {
         float: left;
-        color: rgba(227, 241, 27, 0.932);
+        color: rgba(0, 0, 0, 0.932);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
       }
       .topnav a:hover {
-        background-color: blueviolet;
+        background-color: rgb(51, 74, 75);
         color: deepskyblue;
       }
       .topnav a.active {
-        background-color: rgb(27, 214, 167);
-        color: darkcyan;
+        background-color: rgb(31, 100, 117);
+        color: rgb(0, 0, 0);
+      }
+
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+      }
+      .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+      .myslides {
+        display: none;
+        max-height: 300%;
+        max-width: 100%;
+      }
+
+      .section {
+        text-align: center;
+        text-decoration: underline;
+        padding: 5px 80px;
+      }
+      .section-dark {
+        background-color: #395168;
+        color: #cff0f0;
       }
     </style>
   </head>
@@ -40,7 +67,76 @@
       <a href="gallery.html">Gallery</a>
       <a class="active" href="dance.html">Dance</a>
       <a href="craft.html">Crafting</a>
-      <a href="girlsguide.html">Girls guide</a>
     </div>
+
+    <h2
+      style="
+        font-size: 33px;
+        background-color: rgb(129, 151, 180);
+        text-align: center;
+      "
+    >
+      🎇Here I will show you some traditional dance steps🎇
+    </h2>
+
+    <section class="section section-dark">
+      <h2>Dance</h2>
+
+      <p>
+        dance, is the movement of the body in a rhythmic way, usually to music
+        and within a given space, for the purpose of expressing an idea or
+        emotion, releasing energy, or simply taking delight in the movement
+        itself.
+      </p>
+    </section>
+
+    <div class="carousel-container">
+      <img
+        class="myslides"
+        src="https://www.shutterstock.com/image-photo/close-view-ndian-girl-dancer-600nw-2245827041.jpg"
+        height="300"
+        width="600"
+        alt="slide 1"
+      />
+      <img
+        class="myslides"
+        src="https://www.goroadtrip.com/wp-content/uploads/2018/05/Bharatnatyam.jpg"
+        height="300"
+        width="600"
+        alt="slide 2"
+      />
+      <img
+        class="myslides"
+        src="https://www.shutterstock.com/image-photo/beautiful-indian-girl-dancer-traditional-260nw-1579474054.jpg"
+        height="300"
+        width="600"
+        alt="slide 3"
+      />
+
+      <img
+        class="myslides"
+        src="https://www.shutterstock.com/image-photo/beautiful-indian-girl-dancer-posture-600w-1537836842.jpg"
+        height="300"
+        width="600"
+        alt="slide 4"
+      />
+
+      <img
+        class="myslides"
+        src="https://www.shutterstock.com/image-photo/beautiful-indian-girl-dancer-posture-600w-1531479524.jpg"
+        height="300"
+        width="600"
+        alt="slide 5"
+      />
+
+      <img
+        class="myslides"
+        src="https://qph.cf2.quoracdn.net/main-qimg-a33350cb998822f241d5d9cea57bd311-lq"
+        height="300"
+        width="600"
+        alt="slide 6"
+      />
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

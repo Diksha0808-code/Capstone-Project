@@ -14,17 +14,17 @@ p {
 }
 
 .pimg1 {
-  background-image: url("https://www.travelandleisure.com/thmb/Gh7nQJatHPnjmPLQ1fpMfxGnqIs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iguazu-falls-argentina-brazil-2-MOSTBEAUTIFUL0921-aec01087d3e74265958dee0b09061661.jpg");
+  background-image: url("https://img.resized.co/siliconrepublic/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5zaWxpY29ucmVwdWJsaWMuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDIyXFxcLzA2XFxcL1dlYi0zLTQ0NHgzMzMuanBlZ1wiLFwid2lkdGhcIjo0NDQsXCJoZWlnaHRcIjozMzMsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5zaWxpY29ucmVwdWJsaWMuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE0XFxcLzEyXFxcLzIwMTMwMlxcXC9wdXp6bGUuanBnXCIsXCJvcHRpb25zXCI6e1wib3V0cHV0XCI6XCJ3ZWJwXCJ9fSIsImhhc2giOiI0MjUxMWJkNWFkODBmNzY5MDRjZWQ4NmViYjNjN2I4OGI3NWJkMzJlIn0=/web-3-444x333.jpeg");
   min-height: 400px;
 }
 
 .pimg2 {
-  background-image: url("https://pohcdn.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2021-01/Kirkjufell-volcano.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2023/11/22/05/17/ai-generated-8404740_960_720.png");
   min-height: 400px;
 }
 
 .pimg3 {
-  background-image: url("https://www.purewow.com/stories/most-beautiful-places-in-the-world/assets/3.png");
+  background-image: url("https://img.freepik.com/free-photo/anime-character-celebrating-christmas_23-2150970447.jpg?semt=ais_hybrid");
   min-height: 400px;
 }
 
@@ -33,25 +33,25 @@ p {
   padding: 50px 80px;
 }
 .section-dark {
-  background-color: #282e34;
-  color: #ddd;
+  background-color: #395168;
+  color: #cff0f0;
 }
 .ptext {
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #b18787e0;
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
 
 .ptext .border {
-  background-color: #111;
-  color: #fff;
+  background-color: #746666;
+  color: #000000;
   padding: 20px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 @media (max-width: 568px) {
   .pimg .pimg2 .pimg3 {
