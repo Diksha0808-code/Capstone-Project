@@ -29,6 +29,51 @@
         background-color: rgb(31, 100, 117);
         color: rgb(0, 0, 0);
       }
+      .section {
+        text-align: center;
+        padding: 4px 7px;
+        font-family: "Impact";
+      }
+      .section-dark {
+        background-color: #7ba7cf;
+        color: #000000;
+      }
+      .pimg1 {
+        background-image: url("IMG_20180203_131017.jpg");
+        min-height: 400px;
+      }
+
+      .pimg1 {
+        position: relative;
+        opacity: 0.7;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #b18787e0;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+      }
+
+      .ptext .border {
+        background-color: #746666;
+        color: #000000;
+        padding: 20px;
+        opacity: 0.8;
+      }
+      @media (max-width: 568px) {
+        .pimg .pimg2 .pimg3 {
+          background-attachment: scroll;
+        }
+      }
+
       .footer {
         position: fixed;
         bottom: 0px;
@@ -47,9 +92,34 @@
       <a class="active" href="about.html">about</a>
       <a href="contactme.html">contact</a>
       <a href="gallery.html">Gallery</a>
-      <a href="dance.html">Dance</a>
-      <a href="craft.html">Crafting</a>
+      <a href="drawing.html">Drawing</a>
+      <a href="girlsguide.html">Girls guide</a>
     </div>
+
+    <h2
+      style="
+        font-size: 30px;
+        background-color: rgb(194, 208, 226);
+        text-align: center;
+      "
+    >
+      🎆About me🎆
+    </h2>
+    <section class="section section-dark">
+      <p>
+        My name is Debagni Roy. I read in class eight (8). The name of my school
+        is "BIRSHRESHTHA MUNSHI ABDUR ROUF PUBLIC COLLAGE". I live in Dhanmondi
+        Kalabagan 2nd lane In Dhaka. The aim of my life is to be a good doctor.
+        I have some personal interests or hobbies and these are: "Drawing",
+        "Reading books", "Dancing", "Singing" etc.
+      </p>
+    </section>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border trans">Image to text</span>
+      </div>
+    </div>
+
     <div class="footer">
       <p>Contact me @+880 1921594952</p>
     </div>

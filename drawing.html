@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Impact;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #7fa8a8;
+      }
+      .topnav a {
+        float: left;
+        color: rgba(0, 0, 0, 0.932);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: rgb(51, 74, 75);
+        color: deepskyblue;
+      }
+      .topnav a.active {
+        background-color: rgb(31, 100, 117);
+        color: rgb(0, 0, 0);
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+      }
+      .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+      .myslides {
+        display: none;
+        max-height: 300%;
+        max-width: 100%;
+      }
+      .section {
+        text-align: center;
+        text-decoration: underline;
+        padding: 5px 80px;
+      }
+      .section-dark {
+        background-color: #395168;
+        color: #cff0f0;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        background-color: rgb(50, 117, 204);
+        color: black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">home</a>
+
+      <a href="about.html">about</a>
+      <a href="contactme.html">contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a class="active" href="drawing.html">Drawing</a>
+      <a href="girlsguide.html">Girls guide</a>
+    </div>
+
+    <h2
+      style="
+        font-size: 33px;
+        background-color: rgb(129, 151, 180);
+        text-align: center;
+      "
+    >
+      🌹Here I will show you some of my beutiful drawings🌹
+    </h2>
+
+    <section class="section section-dark">
+      <h2>Drawing</h2>
+
+      <p>
+        Drawing is a visual art form that involves creating a picture on a
+        surface by making lines with tools such as pencils, pens, or crayons.
+        Drawings can depict real-life subjects or abstract ideas, and can be
+        used to express a range of emotions and thoughts.
+      </p>
+    </section>
+
+    <div class="carousel-container">
+      <img
+        class="myslides"
+        src="pic 1.jpg"
+        height="300"
+        width="600"
+        alt="slide 1"
+      />
+
+      <img
+        class="myslides"
+        src="pic 2.jpg"
+        height="300"
+        width="600"
+        alt="slide 2"
+      />
+      <img
+        class="myslides"
+        src="pic 3.jpg"
+        height="300"
+        width="600"
+        alt="slide 3"
+      />
+      <img
+        class="myslides"
+        src="pic 4.jpg"
+        height="300"
+        width="600"
+        alt="slide 4"
+      />
+      <img
+        class="myslides"
+        src="pic 5.jpg"
+        height="300"
+        width="600"
+        alt="slide 5"
+      />
+      <img
+        class="myslides"
+        src="pic 6.jpg"
+        height="300"
+        width="600"
+        alt="slide 6"
+      />
+
+      <img
+        class="myslides"
+        src="pic 7.jpg"
+        height="300"
+        width="600"
+        alt="slide 7"
+      />
+    </div>
+
+    <div class="footer">
+      <p>Contact me @+880 1921594952</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
